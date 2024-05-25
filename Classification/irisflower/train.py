@@ -38,7 +38,7 @@ y_train = torch.LongTensor(y_train)
 y_test = torch.LongTensor(y_test)
 
 
-criterion = nn.CrossEntropyLoss()
+criterion = nn.CrossEntropyLoss() #loss function
 optimizer = torch.optim.Adam(model1.parameters(), lr=0.01)
 
 
